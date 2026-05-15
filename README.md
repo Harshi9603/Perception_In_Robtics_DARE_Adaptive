@@ -98,3 +98,127 @@ python k_sampling_reranking_driver.py
 ```
 
 where the number of test trials can be set in this function. The results from the optuna optimization are printed and saved into a file in the folder `/optune`.
+
+
+## Class Project: Adaptive Step Scheduler for Diffusion Inference
+
+### Overview
+
+We introduce an **Adaptive Step Scheduler** that dynamically adjusts the number
+of DDIM denoising steps at inference time based on the measured complexity of
+the current environment. This is applied on top of the existing k-sampling
+re-ranking pipeline and requires **no retraining**.
+
+The key insight is that DARE's fixed-step diffusion loop wastes compute in
+wide-open environments while potentially under-sampling in cluttered ones.
+By allocating steps proportional to complexity, we reduce average inference
+latency while maintaining trajectory quality.
+
+---
+
+### Method
+
+A scalar **complexity score C ∈ [0, 1]** is computed from two signals
+extracted directly from the robot's belief map at each timestep:
+
+| Signal | Description |
+|---|---|
+| **Obstacle density** | Fraction of occupied cells in a local window around the robot |
+| **Frontier distance** | Normalised Euclidean distance to the nearest exploration frontier |
+
+These are combined linearly:
+
+```
+C = w_density × density + w_distance × dist_norm
+```
+
+The score is then mapped to a denoising step count:
+
+```
+T = round( T_min + (T_max - T_min) × C )
+```
+
+An optional exponential moving average (EMA) smooths the step count across
+consecutive inference calls to prevent abrupt changes.
+
+Default configuration (`AdaptiveSchedulerConfig`):
+
+| Parameter | Value | Meaning |
+|---|---|---|
+| `t_min` | 20 | Steps in the easiest environments |
+| `t_max` | 100 | Steps in the hardest environments |
+| `w_density` | 0.6 | Weight for obstacle density |
+| `w_distance` | 0.4 | Weight for frontier distance |
+| `ema_alpha` | 0.3 | EMA smoothing coefficient |
+
+---
+
+### Integration
+
+The scheduler modifies only the inference loop in `test_worker.py`. The
+original DARE diffusion loop iterates over all timesteps:
+
+```python
+# Original DARE
+for t in self.policy.noise_scheduler.timesteps:
+    ...
+```
+
+The adaptive version slices the timestep sequence before each forward pass:
+
+```python
+# Adaptive – only num_steps timesteps are used
+self.policy.noise_scheduler.timesteps = original_timesteps[:num_steps]
+action_dict = self.policy.predict_action(obs_dict)
+self.policy.noise_scheduler.timesteps = original_timesteps   # restore
+```
+
+No changes are made to the model weights, training pipeline, or observation
+pre-processing.
+
+---
+
+### New Files
+
+| File | Role |
+|---|---|
+| `diffusion_exploration/utils/adaptive_scheduler.py` | Core scheduler class + module-level singleton |
+| `test_worker.py` | Modified inference loop with scheduler integration |
+| `test_adaptive_scheduler.py` | Unit tests (14 tests, no GPU required) |
+| `run_dare_adaptive.sh` | SLURM script for baseline vs. adaptive comparison |
+
+---
+
+### Metrics Logged
+
+The scheduler appends the following fields to the existing per-episode CSV:
+
+| Column | Description |
+|---|---|
+| `adaptive_steps_mean` | Mean denoising steps per inference call |
+| `adaptive_steps_min` | Minimum steps used in the episode |
+| `adaptive_steps_max` | Maximum steps used in the episode |
+| `complexity_mean` | Mean complexity score |
+| `steps_saved_pct` | Percentage of steps saved vs. always using T_max |
+
+---
+### Example Behaviour
+| Environment type | Complexity C | Steps T |
+|---|---|---|
+| Wide open space | ~0.05 | ~23 |
+| Mixed / moderate | ~0.45 | ~56 |
+| Dense / cluttered | ~0.85 | ~88 |
+
+---
+### Running the Tests
+```bash
+python test_adaptive_scheduler.py
+```
+All 14 unit tests run without a GPU or the DARE environment installed.
+---
+### Running on SOL (SLURM)
+```bash
+sbatch run_dare_adaptive.sh
+```
+This runs both a baseline (fixed steps) and the adaptive version sequentially
+on the same GPU node and saves logs for comparison.
