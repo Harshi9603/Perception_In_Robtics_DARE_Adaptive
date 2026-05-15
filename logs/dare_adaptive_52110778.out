@@ -1,0 +1,101 @@
+==============================
+DARE Adaptive Scheduler Eval
+Job ID   : 52110778
+Node     : sg007
+GPU      : 0
+Started  : Sat May  2 23:34:56 MST 2026
+==============================
+value_to_index: {-8.0: 0, -4.0: 1, 0.0: 2, 4.0: 3, 8.0: 4}
+index_to_value: {0: -8.0, 1: -4.0, 2: 0.0, 3: 4.0, 4: 8.0}
+[36m(Runner pid=823337)[0m starting episode 7 on metaAgent 7
+[36m(Runner pid=823350)[0m starting episode 2 on metaAgent 2
+[36m(Runner pid=823288)[0m starting episode 0 on metaAgent 0
+[36m(Runner pid=823332)[0m starting episode 8 on metaAgent 8
+[36m(Runner pid=823291)[0m starting episode 9 on metaAgent 9
+[36m(Runner pid=823326)[0m starting episode 1 on metaAgent 1
+[36m(Runner pid=823328)[0m starting episode 3 on metaAgent 3
+[36m(Runner pid=823287)[0m starting episode 6 on metaAgent 6
+[36m(Runner pid=823322)[0m starting episode 5 on metaAgent 5
+[36m(Runner pid=823325)[0m starting episode 4 on metaAgent 4
+[36m(Runner pid=823291)[0m [AdaptiveScheduler] call=   50 | density=0.075  dist=0.038  complexity=0.100  steps= 28  overhead=0.16ms
+[36m(Runner pid=823288)[0m [AdaptiveScheduler] call=   50 | density=0.065  dist=0.096  complexity=0.084  steps= 27  overhead=0.15ms
+[36m(Runner pid=823332)[0m [AdaptiveScheduler] call=   50 | density=0.073  dist=0.103  complexity=0.074  steps= 26  overhead=0.14ms
+[36m(Runner pid=823328)[0m [AdaptiveScheduler] call=   50 | density=0.040  dist=0.146  complexity=0.143  steps= 31  overhead=0.12ms
+[36m(Runner pid=823322)[0m [AdaptiveScheduler] call=   50 | density=0.087  dist=0.055  complexity=0.076  steps= 26  overhead=0.15ms
+[36m(Runner pid=823350)[0m [AdaptiveScheduler] call=   50 | density=0.000  dist=0.165  complexity=0.066  steps= 25  overhead=0.12ms
+[36m(Runner pid=823287)[0m [AdaptiveScheduler] call=   50 | density=0.070  dist=0.526  complexity=0.263  steps= 41  overhead=0.15ms
+[36m(Runner pid=823325)[0m [AdaptiveScheduler] call=   50 | density=0.114  dist=0.160  complexity=0.150  steps= 32  overhead=0.84ms
+[36m(Runner pid=823326)[0m [AdaptiveScheduler] call=   50 | density=0.050  dist=0.096  complexity=0.082  steps= 27  overhead=0.17ms
+[36m(Runner pid=823337)[0m [AdaptiveScheduler] call=   50 | density=0.100  dist=0.091  complexity=0.089  steps= 27  overhead=0.12ms
+[36m(Runner pid=823322)[0m gif complete
+[36m(Runner pid=823322)[0m 
+[36m(Runner pid=823322)[0m starting episode 10 on metaAgent 5
+[36m(Runner pid=823325)[0m gif complete
+[36m(Runner pid=823325)[0m 
+[36m(Runner pid=823325)[0m starting episode 11 on metaAgent 4
+[36m(Runner pid=823288)[0m gif complete
+[36m(Runner pid=823288)[0m 
+[36m(Runner pid=823288)[0m starting episode 12 on metaAgent 0
+[36m(Runner pid=823350)[0m gif complete
+[36m(Runner pid=823350)[0m 
+[36m(Runner pid=823350)[0m starting episode 13 on metaAgent 2
+[36m(Runner pid=823287)[0m gif complete
+[36m(Runner pid=823287)[0m 
+[36m(Runner pid=823326)[0m gif complete
+[36m(Runner pid=823326)[0m 
+[36m(Runner pid=823332)[0m gif complete
+[36m(Runner pid=823332)[0m 
+[36m(Runner pid=823326)[0m starting episode 15 on metaAgent 1
+[36m(Runner pid=823287)[0m starting episode 14 on metaAgent 6
+[36m(Runner pid=823332)[0m starting episode 16 on metaAgent 8
+[36m(Runner pid=823337)[0m gif complete
+[36m(Runner pid=823337)[0m 
+[36m(Runner pid=823337)[0m starting episode 17 on metaAgent 7
+[36m(Runner pid=823328)[0m gif complete
+[36m(Runner pid=823328)[0m 
+[36m(Runner pid=823328)[0m starting episode 18 on metaAgent 3
+[36m(Runner pid=823291)[0m gif complete
+[36m(Runner pid=823291)[0m 
+[36m(Runner pid=823291)[0m starting episode 19 on metaAgent 9
+[36m(Runner pid=823325)[0m [AdaptiveScheduler] call=   50 | density=0.071  dist=0.040  complexity=0.081  steps= 27  overhead=0.17ms
+[36m(Runner pid=823322)[0m [AdaptiveScheduler] call=   50 | density=0.091  dist=0.025  complexity=0.076  steps= 26  overhead=0.14ms
+[36m(Runner pid=823288)[0m [AdaptiveScheduler] call=   50 | density=0.080  dist=0.146  complexity=0.132  steps= 31  overhead=0.13ms
+[36m(Runner pid=823326)[0m [AdaptiveScheduler] call=   50 | density=0.073  dist=0.124  complexity=0.105  steps= 28  overhead=0.15ms
+[36m(Runner pid=823350)[0m [AdaptiveScheduler] call=   50 | density=0.077  dist=0.095  complexity=0.089  steps= 27  overhead=0.14ms
+[36m(Runner pid=823287)[0m [AdaptiveScheduler] call=   50 | density=0.106  dist=0.074  complexity=0.143  steps= 31  overhead=0.20ms
+[36m(Runner pid=823332)[0m [AdaptiveScheduler] call=   50 | density=0.085  dist=0.073  complexity=0.074  steps= 26  overhead=0.26ms
+[36m(Runner pid=823337)[0m [AdaptiveScheduler] call=   50 | density=0.055  dist=0.101  complexity=0.073  steps= 26  overhead=0.16ms
+[36m(Runner pid=823328)[0m [AdaptiveScheduler] call=   50 | density=0.032  dist=0.505  complexity=0.224  steps= 38  overhead=0.11ms
+[36m(Runner pid=823291)[0m [AdaptiveScheduler] call=   50 | density=0.099  dist=0.192  complexity=0.150  steps= 32  overhead=0.16ms
+[36m(Runner pid=823325)[0m gif complete
+[36m(Runner pid=823325)[0m 
+[36m(Runner pid=823288)[0m gif complete
+[36m(Runner pid=823288)[0m 
+[36m(Runner pid=823328)[0m gif complete
+[36m(Runner pid=823328)[0m 
+[36m(Runner pid=823350)[0m gif complete
+[36m(Runner pid=823350)[0m 
+[36m(Runner pid=823291)[0m gif complete
+[36m(Runner pid=823291)[0m 
+[36m(Runner pid=823326)[0m gif complete
+[36m(Runner pid=823326)[0m 
+[36m(Runner pid=823322)[0m gif complete
+[36m(Runner pid=823322)[0m 
+[36m(Runner pid=823332)[0m gif complete
+[36m(Runner pid=823332)[0m 
+[36m(Runner pid=823287)[0m gif complete
+[36m(Runner pid=823287)[0m 
+|#Total test: 20
+|#Length of dist_history: 20
+|#Average length: 573.8492774204512
+|#Length std: 58.045082921103635
+|#Successes: 20
+|#Success Rate: 1.0
+|#Length of success_dist_history: 20
+|#Average Success length: 573.8492774204512
+|#Success Length std: 58.045082921103635
+[36m(Runner pid=823337)[0m gif complete
+[36m(Runner pid=823337)[0m 
+==============================
+Finished : Sat May  2 23:42:59 MST 2026
+==============================

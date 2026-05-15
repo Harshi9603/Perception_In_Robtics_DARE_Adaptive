@@ -1,0 +1,11 @@
+
+CondaError: Run 'conda init' before 'conda activate'
+
+2026-04-29 01:34:26,871	INFO worker.py:1841 -- Started a local Ray instance.
+Traceback (most recent call last):
+  File "/scratch/hboddu12/Perception_in_Robotics_DARE-1/test_driver.py", line 127, in <module>
+    run_test()
+  File "/scratch/hboddu12/Perception_in_Robotics_DARE-1/test_driver.py", line 27, in run_test
+    payload = torch.load(open(checkpoint, 'rb'), pickle_module=dill)
+                         ^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'checkpoints/checkpoints/epoch=0125-val_loss=0.060.ckpt'

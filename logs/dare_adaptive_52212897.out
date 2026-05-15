@@ -1,0 +1,226 @@
+==============================
+DARE Adaptive Scheduler Eval
+Job ID   : 52212897
+Node     : sg023
+GPU      : 0
+Started  : Tue May  5 19:27:06 MST 2026
+==============================
+value_to_index: {-8.0: 0, -4.0: 1, 0.0: 2, 4.0: 3, 8.0: 4}
+index_to_value: {0: -8.0, 1: -4.0, 2: 0.0, 3: 4.0, 4: 8.0}
+[36m(Runner pid=2051386)[0m starting episode 0 on metaAgent 0
+[36m(Runner pid=2051409)[0m starting episode 3 on metaAgent 3
+[36m(Runner pid=2051399)[0m starting episode 5 on metaAgent 5
+[36m(Runner pid=2051389)[0m starting episode 1 on metaAgent 1
+[36m(Runner pid=2051426)[0m starting episode 4 on metaAgent 4
+[36m(Runner pid=2051412)[0m starting episode 8 on metaAgent 8
+[36m(Runner pid=2051427)[0m starting episode 6 on metaAgent 6
+[36m(Runner pid=2051400)[0m starting episode 7 on metaAgent 7
+[36m(Runner pid=2051410)[0m starting episode 2 on metaAgent 2
+[36m(Runner pid=2051429)[0m starting episode 9 on metaAgent 9
+[36m(Runner pid=2051400)[0m [AdaptiveScheduler] call=   50 | density=0.101  dist=0.576  complexity=0.275  steps= 42  overhead=0.10ms
+[36m(Runner pid=2051429)[0m [AdaptiveScheduler] call=   50 | density=0.052  dist=0.428  complexity=0.176  steps= 34  overhead=0.18ms
+[36m(Runner pid=2051426)[0m [AdaptiveScheduler] call=   50 | density=0.114  dist=0.500  complexity=0.302  steps= 44  overhead=0.12ms
+[36m(Runner pid=2051412)[0m [AdaptiveScheduler] call=   50 | density=0.098  dist=0.664  complexity=0.280  steps= 42  overhead=0.14ms
+[36m(Runner pid=2051410)[0m [AdaptiveScheduler] call=   50 | density=0.096  dist=0.573  complexity=0.300  steps= 44  overhead=0.14ms
+[36m(Runner pid=2051386)[0m [AdaptiveScheduler] call=   50 | density=0.042  dist=0.593  complexity=0.286  steps= 43  overhead=0.15ms
+[36m(Runner pid=2051399)[0m [AdaptiveScheduler] call=   50 | density=0.052  dist=0.247  complexity=0.154  steps= 32  overhead=0.11ms
+[36m(Runner pid=2051427)[0m [AdaptiveScheduler] call=   50 | density=0.050  dist=0.220  complexity=0.142  steps= 31  overhead=0.16ms
+[36m(Runner pid=2051389)[0m [AdaptiveScheduler] call=   50 | density=0.063  dist=0.466  complexity=0.261  steps= 41  overhead=0.11ms
+[36m(Runner pid=2051409)[0m [AdaptiveScheduler] call=   50 | density=0.053  dist=0.426  complexity=0.204  steps= 36  overhead=0.12ms
+[36m(Runner pid=2051426)[0m starting episode 10 on metaAgent 4
+[36m(Runner pid=2051400)[0m starting episode 11 on metaAgent 7
+[36m(Runner pid=2051412)[0m starting episode 12 on metaAgent 8
+[36m(Runner pid=2051410)[0m starting episode 13 on metaAgent 2
+[36m(Runner pid=2051399)[0m starting episode 15 on metaAgent 5
+[36m(Runner pid=2051386)[0m starting episode 14 on metaAgent 0
+[36m(Runner pid=2051389)[0m starting episode 16 on metaAgent 1
+[36m(Runner pid=2051409)[0m starting episode 17 on metaAgent 3
+[36m(Runner pid=2051429)[0m starting episode 18 on metaAgent 9
+[36m(Runner pid=2051427)[0m starting episode 19 on metaAgent 6
+[36m(Runner pid=2051426)[0m [AdaptiveScheduler] call=   50 | density=0.073  dist=0.558  complexity=0.264  steps= 41  overhead=0.12ms
+[36m(Runner pid=2051400)[0m [AdaptiveScheduler] call=   50 | density=0.096  dist=0.425  complexity=0.194  steps= 35  overhead=0.17ms
+[36m(Runner pid=2051412)[0m [AdaptiveScheduler] call=   50 | density=0.072  dist=0.264  complexity=0.198  steps= 36  overhead=0.12ms
+[36m(Runner pid=2051410)[0m [AdaptiveScheduler] call=   50 | density=0.039  dist=0.181  complexity=0.120  steps= 30  overhead=0.16ms
+[36m(Runner pid=2051399)[0m [AdaptiveScheduler] call=   50 | density=0.032  dist=0.340  complexity=0.145  steps= 32  overhead=0.12ms
+[36m(Runner pid=2051389)[0m [AdaptiveScheduler] call=   50 | density=0.051  dist=0.510  complexity=0.225  steps= 38  overhead=0.15ms
+[36m(Runner pid=2051386)[0m [AdaptiveScheduler] call=   50 | density=0.066  dist=0.530  complexity=0.229  steps= 38  overhead=0.10ms
+[36m(Runner pid=2051412)[0m starting episode 20 on metaAgent 8
+[36m(Runner pid=2051409)[0m [AdaptiveScheduler] call=   50 | density=0.100  dist=0.440  complexity=0.265  steps= 41  overhead=0.13ms
+[36m(Runner pid=2051410)[0m starting episode 21 on metaAgent 2
+[36m(Runner pid=2051400)[0m starting episode 22 on metaAgent 7
+[36m(Runner pid=2051429)[0m [AdaptiveScheduler] call=   50 | density=0.056  dist=0.520  complexity=0.245  steps= 40  overhead=0.17ms
+[36m(Runner pid=2051426)[0m [AdaptiveScheduler] call=  100 | density=0.066  dist=0.350  complexity=0.231  steps= 38  overhead=0.11ms
+[36m(Runner pid=2051427)[0m [AdaptiveScheduler] call=   50 | density=0.052  dist=0.357  complexity=0.177  steps= 34  overhead=0.13ms
+[36m(Runner pid=2051389)[0m starting episode 23 on metaAgent 1
+[36m(Runner pid=2051409)[0m starting episode 24 on metaAgent 3
+[36m(Runner pid=2051426)[0m starting episode 25 on metaAgent 4
+[36m(Runner pid=2051412)[0m [AdaptiveScheduler] call=   50 | density=0.037  dist=0.849  complexity=0.324  steps= 46  overhead=0.15ms
+[36m(Runner pid=2051399)[0m starting episode 26 on metaAgent 5
+[36m(Runner pid=2051386)[0m [AdaptiveScheduler] call=  100 | density=0.049  dist=0.302  complexity=0.164  steps= 33  overhead=0.14ms
+[36m(Runner pid=2051429)[0m starting episode 27 on metaAgent 9
+[36m(Runner pid=2051427)[0m starting episode 28 on metaAgent 6
+[36m(Runner pid=2051386)[0m starting episode 29 on metaAgent 0
+[36m(Runner pid=2051410)[0m [AdaptiveScheduler] call=   50 | density=0.124  dist=0.366  complexity=0.240  steps= 39  overhead=0.14ms
+[36m(Runner pid=2051400)[0m [AdaptiveScheduler] call=   50 | density=0.040  dist=0.215  complexity=0.117  steps= 29  overhead=0.13ms
+[36m(Runner pid=2051412)[0m starting episode 30 on metaAgent 8
+[36m(Runner pid=2051389)[0m [AdaptiveScheduler] call=   50 | density=0.053  dist=0.829  complexity=0.375  steps= 50  overhead=0.15ms
+[36m(Runner pid=2051409)[0m [AdaptiveScheduler] call=   50 | density=0.071  dist=0.240  complexity=0.161  steps= 33  overhead=0.14ms
+[36m(Runner pid=2051426)[0m [AdaptiveScheduler] call=   50 | density=0.070  dist=0.576  complexity=0.249  steps= 40  overhead=0.13ms
+[36m(Runner pid=2051399)[0m [AdaptiveScheduler] call=   50 | density=0.083  dist=0.225  complexity=0.152  steps= 32  overhead=0.13ms
+[36m(Runner pid=2051400)[0m starting episode 31 on metaAgent 7
+[36m(Runner pid=2051429)[0m [AdaptiveScheduler] call=   50 | density=0.075  dist=0.507  complexity=0.218  steps= 37  overhead=0.11ms
+[36m(Runner pid=2051389)[0m starting episode 32 on metaAgent 1
+[36m(Runner pid=2051426)[0m starting episode 33 on metaAgent 4
+[36m(Runner pid=2051427)[0m [AdaptiveScheduler] call=   50 | density=0.050  dist=0.336  complexity=0.183  steps= 35  overhead=0.13ms
+[36m(Runner pid=2051386)[0m [AdaptiveScheduler] call=   50 | density=0.097  dist=0.619  complexity=0.302  steps= 44  overhead=0.18ms
+[36m(Runner pid=2051412)[0m [AdaptiveScheduler] call=   50 | density=0.070  dist=0.849  complexity=0.331  steps= 46  overhead=0.16ms
+[36m(Runner pid=2051409)[0m starting episode 34 on metaAgent 3
+[36m(Runner pid=2051410)[0m [AdaptiveScheduler] call=  100 | density=0.098  dist=0.454  complexity=0.264  steps= 41  overhead=0.19ms
+[36m(Runner pid=2051410)[0m starting episode 35 on metaAgent 2
+[36m(Runner pid=2051429)[0m starting episode 36 on metaAgent 9
+[36m(Runner pid=2051399)[0m starting episode 37 on metaAgent 5
+[36m(Runner pid=2051389)[0m [AdaptiveScheduler] call=   50 | density=0.135  dist=0.421  complexity=0.270  steps= 42  overhead=0.18ms
+[36m(Runner pid=2051427)[0m starting episode 38 on metaAgent 6
+[36m(Runner pid=2051400)[0m [AdaptiveScheduler] call=   50 | density=0.094  dist=0.378  complexity=0.195  steps= 36  overhead=0.11ms
+[36m(Runner pid=2051386)[0m starting episode 39 on metaAgent 0
+[36m(Runner pid=2051426)[0m [AdaptiveScheduler] call=   50 | density=0.071  dist=0.612  complexity=0.259  steps= 41  overhead=0.11ms
+[36m(Runner pid=2051412)[0m starting episode 40 on metaAgent 8
+[36m(Runner pid=2051410)[0m [AdaptiveScheduler] call=   50 | density=0.068  dist=0.322  complexity=0.186  steps= 35  overhead=0.15ms
+[36m(Runner pid=2051409)[0m [AdaptiveScheduler] call=   50 | density=0.028  dist=0.085  complexity=0.124  steps= 30  overhead=0.10ms
+[36m(Runner pid=2051399)[0m [AdaptiveScheduler] call=   50 | density=0.075  dist=0.407  complexity=0.274  steps= 42  overhead=0.10ms
+[36m(Runner pid=2051389)[0m starting episode 41 on metaAgent 1
+[36m(Runner pid=2051427)[0m [AdaptiveScheduler] call=   50 | density=0.093  dist=0.540  complexity=0.228  steps= 38  overhead=0.11ms
+[36m(Runner pid=2051429)[0m [AdaptiveScheduler] call=   50 | density=0.062  dist=0.525  complexity=0.223  steps= 38  overhead=0.11ms
+[36m(Runner pid=2051426)[0m starting episode 42 on metaAgent 4
+[36m(Runner pid=2051386)[0m [AdaptiveScheduler] call=   50 | density=0.025  dist=0.422  complexity=0.250  steps= 40  overhead=0.12ms
+[36m(Runner pid=2051400)[0m starting episode 43 on metaAgent 7
+[36m(Runner pid=2051410)[0m starting episode 44 on metaAgent 2
+[36m(Runner pid=2051409)[0m starting episode 45 on metaAgent 3
+[36m(Runner pid=2051427)[0m starting episode 46 on metaAgent 6
+[36m(Runner pid=2051412)[0m [AdaptiveScheduler] call=   50 | density=0.107  dist=0.486  complexity=0.239  steps= 39  overhead=0.12ms
+[36m(Runner pid=2051399)[0m starting episode 47 on metaAgent 5
+[36m(Runner pid=2051386)[0m starting episode 48 on metaAgent 0
+[36m(Runner pid=2051412)[0m starting episode 49 on metaAgent 8
+[36m(Runner pid=2051429)[0m [AdaptiveScheduler] call=  100 | density=0.112  dist=0.565  complexity=0.239  steps= 39  overhead=0.12ms
+[36m(Runner pid=2051389)[0m [AdaptiveScheduler] call=   50 | density=0.059  dist=0.269  complexity=0.128  steps= 30  overhead=0.16ms
+[36m(Runner pid=2051429)[0m starting episode 50 on metaAgent 9
+[36m(Runner pid=2051426)[0m [AdaptiveScheduler] call=   50 | density=0.068  dist=0.819  complexity=0.371  steps= 50  overhead=0.11ms
+[36m(Runner pid=2051400)[0m [AdaptiveScheduler] call=   50 | density=0.088  dist=0.443  complexity=0.190  steps= 35  overhead=0.11ms
+[36m(Runner pid=2051410)[0m [AdaptiveScheduler] call=   50 | density=0.097  dist=0.481  complexity=0.207  steps= 37  overhead=0.19ms
+[36m(Runner pid=2051409)[0m [AdaptiveScheduler] call=   50 | density=0.092  dist=0.297  complexity=0.198  steps= 36  overhead=0.13ms
+[36m(Runner pid=2051427)[0m [AdaptiveScheduler] call=   50 | density=0.061  dist=0.310  complexity=0.193  steps= 35  overhead=0.12ms
+[36m(Runner pid=2051389)[0m starting episode 51 on metaAgent 1
+[36m(Runner pid=2051410)[0m starting episode 52 on metaAgent 2
+[36m(Runner pid=2051400)[0m starting episode 53 on metaAgent 7
+[36m(Runner pid=2051409)[0m starting episode 54 on metaAgent 3
+[36m(Runner pid=2051386)[0m [AdaptiveScheduler] call=   50 | density=0.080  dist=0.145  complexity=0.092  steps= 27  overhead=0.14ms
+[36m(Runner pid=2051399)[0m [AdaptiveScheduler] call=   50 | density=0.074  dist=0.146  complexity=0.114  steps= 29  overhead=0.12ms
+[36m(Runner pid=2051426)[0m starting episode 55 on metaAgent 4
+[36m(Runner pid=2051412)[0m [AdaptiveScheduler] call=   50 | density=0.066  dist=0.416  complexity=0.208  steps= 37  overhead=0.14ms
+[36m(Runner pid=2051429)[0m [AdaptiveScheduler] call=   50 | density=0.059  dist=0.355  complexity=0.181  steps= 35  overhead=0.12ms
+[36m(Runner pid=2051427)[0m starting episode 56 on metaAgent 6
+[36m(Runner pid=2051389)[0m [AdaptiveScheduler] call=   50 | density=0.088  dist=0.304  complexity=0.172  steps= 34  overhead=0.17ms
+[36m(Runner pid=2051410)[0m [AdaptiveScheduler] call=   50 | density=0.075  dist=0.515  complexity=0.260  steps= 41  overhead=0.14ms
+[36m(Runner pid=2051429)[0m starting episode 57 on metaAgent 9
+[36m(Runner pid=2051399)[0m starting episode 58 on metaAgent 5
+[36m(Runner pid=2051400)[0m [AdaptiveScheduler] call=   50 | density=0.074  dist=0.381  complexity=0.194  steps= 36  overhead=0.14ms
+[36m(Runner pid=2051386)[0m starting episode 59 on metaAgent 0
+[36m(Runner pid=2051409)[0m [AdaptiveScheduler] call=   50 | density=0.092  dist=0.393  complexity=0.190  steps= 35  overhead=0.10ms
+[36m(Runner pid=2051412)[0m starting episode 60 on metaAgent 8
+[36m(Runner pid=2051426)[0m [AdaptiveScheduler] call=   50 | density=0.043  dist=0.416  complexity=0.247  steps= 40  overhead=0.13ms
+[36m(Runner pid=2051410)[0m starting episode 61 on metaAgent 2
+[36m(Runner pid=2051427)[0m [AdaptiveScheduler] call=   50 | density=0.098  dist=0.486  complexity=0.238  steps= 39  overhead=0.10ms
+[36m(Runner pid=2051389)[0m starting episode 62 on metaAgent 1
+[36m(Runner pid=2051399)[0m [AdaptiveScheduler] call=   50 | density=0.080  dist=0.472  complexity=0.209  steps= 37  overhead=0.10ms
+[36m(Runner pid=2051429)[0m [AdaptiveScheduler] call=   50 | density=0.109  dist=0.193  complexity=0.176  steps= 34  overhead=0.10ms
+[36m(Runner pid=2051409)[0m starting episode 63 on metaAgent 3
+[36m(Runner pid=2051400)[0m starting episode 64 on metaAgent 7
+[36m(Runner pid=2051426)[0m starting episode 65 on metaAgent 4
+[36m(Runner pid=2051386)[0m [AdaptiveScheduler] call=   50 | density=0.056  dist=0.089  complexity=0.141  steps= 31  overhead=0.12ms
+[36m(Runner pid=2051410)[0m [AdaptiveScheduler] call=   50 | density=0.053  dist=0.081  complexity=0.127  steps= 30  overhead=0.12ms
+[36m(Runner pid=2051427)[0m starting episode 66 on metaAgent 6
+[36m(Runner pid=2051412)[0m [AdaptiveScheduler] call=   50 | density=0.046  dist=0.600  complexity=0.244  steps= 40  overhead=0.12ms
+[36m(Runner pid=2051399)[0m starting episode 67 on metaAgent 5
+[36m(Runner pid=2051412)[0m starting episode 68 on metaAgent 8
+[36m(Runner pid=2051389)[0m [AdaptiveScheduler] call=   50 | density=0.076  dist=0.260  complexity=0.153  steps= 32  overhead=0.12ms
+[36m(Runner pid=2051410)[0m starting episode 69 on metaAgent 2
+[36m(Runner pid=2051429)[0m [AdaptiveScheduler] call=  100 | density=0.093  dist=0.394  complexity=0.197  steps= 36  overhead=0.12ms
+[36m(Runner pid=2051386)[0m starting episode 70 on metaAgent 0
+[36m(Runner pid=2051426)[0m [AdaptiveScheduler] call=   50 | density=0.029  dist=0.595  complexity=0.247  steps= 40  overhead=0.14ms
+[36m(Runner pid=2051389)[0m starting episode 71 on metaAgent 1
+[36m(Runner pid=2051409)[0m [AdaptiveScheduler] call=   50 | density=0.090  dist=0.196  complexity=0.160  steps= 33  overhead=0.14ms
+[36m(Runner pid=2051400)[0m [AdaptiveScheduler] call=   50 | density=0.090  dist=0.481  complexity=0.275  steps= 42  overhead=0.11ms
+[36m(Runner pid=2051429)[0m starting episode 72 on metaAgent 9
+[36m(Runner pid=2051427)[0m [AdaptiveScheduler] call=   50 | density=0.077  dist=0.692  complexity=0.306  steps= 44  overhead=0.12ms
+[36m(Runner pid=2051400)[0m starting episode 73 on metaAgent 7
+[36m(Runner pid=2051412)[0m [AdaptiveScheduler] call=   50 | density=0.079  dist=1.000  complexity=0.421  steps= 54  overhead=0.22ms
+[36m(Runner pid=2051409)[0m starting episode 74 on metaAgent 3
+[36m(Runner pid=2051426)[0m starting episode 75 on metaAgent 4
+[36m(Runner pid=2051399)[0m [AdaptiveScheduler] call=   50 | density=0.057  dist=0.407  complexity=0.268  steps= 41  overhead=0.12ms
+[36m(Runner pid=2051427)[0m starting episode 76 on metaAgent 6
+[36m(Runner pid=2051429)[0m [AdaptiveScheduler] call=   50 | density=0.077  dist=0.340  complexity=0.222  steps= 38  overhead=0.13ms
+[36m(Runner pid=2051386)[0m [AdaptiveScheduler] call=   50 | density=0.053  dist=0.305  complexity=0.124  steps= 30  overhead=0.14ms
+[36m(Runner pid=2051389)[0m [AdaptiveScheduler] call=   50 | density=0.079  dist=0.677  complexity=0.328  steps= 46  overhead=0.11ms
+[36m(Runner pid=2051410)[0m [AdaptiveScheduler] call=   50 | density=0.035  dist=0.552  complexity=0.239  steps= 39  overhead=0.15ms
+[36m(Runner pid=2051399)[0m starting episode 77 on metaAgent 5
+[36m(Runner pid=2051429)[0m starting episode 78 on metaAgent 9
+[36m(Runner pid=2051412)[0m starting episode 79 on metaAgent 8
+[36m(Runner pid=2051400)[0m [AdaptiveScheduler] call=   50 | density=0.040  dist=0.199  complexity=0.158  steps= 33  overhead=0.16ms
+[36m(Runner pid=2051386)[0m starting episode 80 on metaAgent 0
+[36m(Runner pid=2051409)[0m [AdaptiveScheduler] call=   50 | density=0.035  dist=0.210  complexity=0.127  steps= 30  overhead=0.15ms
+[36m(Runner pid=2051426)[0m [AdaptiveScheduler] call=   50 | density=0.077  dist=0.512  complexity=0.237  steps= 39  overhead=0.14ms
+[36m(Runner pid=2051410)[0m starting episode 81 on metaAgent 2
+[36m(Runner pid=2051389)[0m starting episode 82 on metaAgent 1
+[36m(Runner pid=2051400)[0m starting episode 83 on metaAgent 7
+[36m(Runner pid=2051427)[0m [AdaptiveScheduler] call=   50 | density=0.074  dist=0.417  complexity=0.204  steps= 36  overhead=0.14ms
+[36m(Runner pid=2051409)[0m starting episode 84 on metaAgent 3
+[36m(Runner pid=2051399)[0m [AdaptiveScheduler] call=   50 | density=0.083  dist=0.543  complexity=0.225  steps= 38  overhead=0.11ms
+[36m(Runner pid=2051386)[0m [AdaptiveScheduler] call=   50 | density=0.061  dist=0.433  complexity=0.271  steps= 42  overhead=0.11ms
+[36m(Runner pid=2051399)[0m starting episode 85 on metaAgent 5
+[36m(Runner pid=2051412)[0m [AdaptiveScheduler] call=   50 | density=0.074  dist=0.261  complexity=0.183  steps= 35  overhead=0.12ms
+[36m(Runner pid=2051410)[0m [AdaptiveScheduler] call=   50 | density=0.000  dist=0.350  complexity=0.159  steps= 33  overhead=0.15ms
+[36m(Runner pid=2051429)[0m [AdaptiveScheduler] call=   50 | density=0.000  dist=0.569  complexity=0.226  steps= 38  overhead=0.20ms
+[36m(Runner pid=2051427)[0m starting episode 86 on metaAgent 6
+[36m(Runner pid=2051389)[0m [AdaptiveScheduler] call=   50 | density=0.080  dist=0.411  complexity=0.231  steps= 38  overhead=0.17ms
+[36m(Runner pid=2051426)[0m starting episode 87 on metaAgent 4
+[36m(Runner pid=2051386)[0m starting episode 88 on metaAgent 0
+[36m(Runner pid=2051409)[0m [AdaptiveScheduler] call=   50 | density=0.098  dist=0.369  complexity=0.193  steps= 35  overhead=0.16ms
+[36m(Runner pid=2051389)[0m starting episode 89 on metaAgent 1
+[36m(Runner pid=2051400)[0m [AdaptiveScheduler] call=   50 | density=0.074  dist=0.595  complexity=0.251  steps= 40  overhead=0.12ms
+[36m(Runner pid=2051412)[0m starting episode 90 on metaAgent 8
+[36m(Runner pid=2051429)[0m starting episode 91 on metaAgent 9
+[36m(Runner pid=2051399)[0m [AdaptiveScheduler] call=   50 | density=0.081  dist=0.600  complexity=0.256  steps= 41  overhead=0.11ms
+[36m(Runner pid=2051409)[0m starting episode 92 on metaAgent 3
+[36m(Runner pid=2051410)[0m starting episode 93 on metaAgent 2
+[36m(Runner pid=2051427)[0m [AdaptiveScheduler] call=   50 | density=0.040  dist=0.573  complexity=0.236  steps= 39  overhead=0.13ms
+[36m(Runner pid=2051399)[0m starting episode 94 on metaAgent 5
+[36m(Runner pid=2051386)[0m [AdaptiveScheduler] call=   50 | density=0.084  dist=0.383  complexity=0.196  steps= 36  overhead=0.14ms
+[36m(Runner pid=2051426)[0m [AdaptiveScheduler] call=   50 | density=0.077  dist=0.275  complexity=0.108  steps= 29  overhead=0.15ms
+[36m(Runner pid=2051389)[0m [AdaptiveScheduler] call=   50 | density=0.053  dist=0.351  complexity=0.150  steps= 32  overhead=0.12ms
+[36m(Runner pid=2051400)[0m starting episode 95 on metaAgent 7
+[36m(Runner pid=2051426)[0m starting episode 96 on metaAgent 4
+[36m(Runner pid=2051429)[0m [AdaptiveScheduler] call=   50 | density=0.022  dist=0.537  complexity=0.251  steps= 40  overhead=0.10ms
+[36m(Runner pid=2051412)[0m [AdaptiveScheduler] call=   50 | density=0.000  dist=0.602  complexity=0.250  steps= 40  overhead=0.16ms
+[36m(Runner pid=2051410)[0m [AdaptiveScheduler] call=   50 | density=0.105  dist=0.641  complexity=0.298  steps= 44  overhead=0.17ms
+[36m(Runner pid=2051409)[0m [AdaptiveScheduler] call=   50 | density=0.071  dist=0.190  complexity=0.148  steps= 32  overhead=0.12ms
+[36m(Runner pid=2051386)[0m starting episode 97 on metaAgent 0
+[36m(Runner pid=2051389)[0m starting episode 98 on metaAgent 1
+[36m(Runner pid=2051427)[0m starting episode 99 on metaAgent 6
+[36m(Runner pid=2051399)[0m [AdaptiveScheduler] call=   50 | density=0.036  dist=0.637  complexity=0.324  steps= 46  overhead=0.19ms
+[36m(Runner pid=2051400)[0m [AdaptiveScheduler] call=   50 | density=0.101  dist=0.255  complexity=0.153  steps= 32  overhead=0.18ms
+[36m(Runner pid=2051426)[0m [AdaptiveScheduler] call=   50 | density=0.078  dist=0.388  complexity=0.241  steps= 39  overhead=0.14ms
+[36m(Runner pid=2051389)[0m [AdaptiveScheduler] call=   50 | density=0.000  dist=0.461  complexity=0.250  steps= 40  overhead=0.10ms
+[36m(Runner pid=2051386)[0m [AdaptiveScheduler] call=   50 | density=0.062  dist=0.782  complexity=0.338  steps= 47  overhead=0.12ms
+[36m(Runner pid=2051427)[0m [AdaptiveScheduler] call=   50 | density=0.042  dist=0.311  complexity=0.165  steps= 33  overhead=0.09ms
+|#Total test: 100
+|#Length of dist_history: 100
+|#Average length: 574.6855394914077
+|#Length std: 75.0909313402036
+|#Successes: 100
+|#Success Rate: 1.0
+|#Length of success_dist_history: 100
+|#Average Success length: 574.6855394914077
+|#Success Length std: 75.0909313402036
+==============================
+Finished : Tue May  5 19:56:04 MST 2026
+==============================

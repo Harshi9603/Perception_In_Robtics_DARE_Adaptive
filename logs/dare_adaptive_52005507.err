@@ -1,0 +1,28 @@
+/var/spool/slurmd/job52005507/slurm_script: line 16: /home/hboddu12/miniconda3/etc/profile.d/conda.sh: No such file or directory
+
+CondaError: Run 'conda init' before 'conda activate'
+
+Traceback (most recent call last):
+  File "/scratch/hboddu12/Perception_in_Robotics_DARE-1/test_driver.py", line 7, in <module>
+    import ray
+  File "/etc/python/sitecustomize.py", line 117, in _import
+    mod = _original_import(name, globals, locals, fromlist, level)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hboddu12/.local/lib/python3.12/site-packages/ray/__init__.py", line 84, in <module>
+    import ray._raylet  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^
+  File "/etc/python/sitecustomize.py", line 117, in _import
+    mod = _original_import(name, globals, locals, fromlist, level)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "python/ray/_raylet.pyx", line 173, in init ray._raylet
+  File "/home/hboddu12/.local/lib/python3.12/site-packages/ray/exceptions.py", line 12, in <module>
+    from ray.core.generated.common_pb2 import (
+  File "/etc/python/sitecustomize.py", line 117, in _import
+    mod = _original_import(name, globals, locals, fromlist, level)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hboddu12/.local/lib/python3.12/site-packages/ray/core/generated/common_pb2.py", line 5, in <module>
+    from google.protobuf.internal import enum_type_wrapper
+  File "/etc/python/sitecustomize.py", line 117, in _import
+    mod = _original_import(name, globals, locals, fromlist, level)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'google.protobuf'

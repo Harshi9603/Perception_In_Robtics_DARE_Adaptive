@@ -1,0 +1,22 @@
+2026-04-30 21:51:32,194	INFO worker.py:1841 -- Started a local Ray instance.
+Traceback (most recent call last):
+  File "/scratch/hboddu12/Perception_in_Robotics_DARE-1/test_driver.py", line 127, in <module>
+    run_test()
+  File "/scratch/hboddu12/Perception_in_Robotics_DARE-1/test_driver.py", line 40, in run_test
+    policy.to(device)
+  File "/home/hboddu12/.conda/envs/env_dare/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1174, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/hboddu12/.conda/envs/env_dare/lib/python3.12/site-packages/torch/nn/modules/module.py", line 780, in _apply
+    module._apply(fn)
+  File "/home/hboddu12/.conda/envs/env_dare/lib/python3.12/site-packages/torch/nn/modules/module.py", line 780, in _apply
+    module._apply(fn)
+  File "/home/hboddu12/.conda/envs/env_dare/lib/python3.12/site-packages/torch/nn/modules/module.py", line 805, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/hboddu12/.conda/envs/env_dare/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1160, in convert
+    return t.to(
+           ^^^^^
+  File "/home/hboddu12/.conda/envs/env_dare/lib/python3.12/site-packages/torch/cuda/__init__.py", line 305, in _lazy_init
+    raise AssertionError("Torch not compiled with CUDA enabled")
+AssertionError: Torch not compiled with CUDA enabled

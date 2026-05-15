@@ -1,0 +1,101 @@
+==============================
+DARE Adaptive Scheduler Eval
+Job ID   : 52110774
+Node     : sg009
+GPU      : 0
+Started  : Sat May  2 19:56:47 MST 2026
+==============================
+value_to_index: {-8.0: 0, -4.0: 1, 0.0: 2, 4.0: 3, 8.0: 4}
+index_to_value: {0: -8.0, 1: -4.0, 2: 0.0, 3: 4.0, 4: 8.0}
+[36m(Runner pid=1496268)[0m starting episode 5 on metaAgent 5
+[36m(Runner pid=1496255)[0m starting episode 9 on metaAgent 9
+[36m(Runner pid=1496257)[0m starting episode 4 on metaAgent 4
+[36m(Runner pid=1496261)[0m starting episode 0 on metaAgent 0
+[36m(Runner pid=1496238)[0m starting episode 1 on metaAgent 1
+[36m(Runner pid=1496244)[0m starting episode 6 on metaAgent 6
+[36m(Runner pid=1496237)[0m starting episode 7 on metaAgent 7
+[36m(Runner pid=1496233)[0m starting episode 8 on metaAgent 8
+[36m(Runner pid=1496240)[0m starting episode 3 on metaAgent 3
+[36m(Runner pid=1496241)[0m starting episode 2 on metaAgent 2
+[36m(Runner pid=1496233)[0m [AdaptiveScheduler] call=   50 | density=0.068  dist=0.070  complexity=0.068  steps= 25  overhead=0.15ms
+[36m(Runner pid=1496240)[0m [AdaptiveScheduler] call=   50 | density=0.092  dist=0.065  complexity=0.079  steps= 26  overhead=0.14ms
+[36m(Runner pid=1496241)[0m [AdaptiveScheduler] call=   50 | density=0.087  dist=0.104  complexity=0.085  steps= 27  overhead=0.16ms
+[36m(Runner pid=1496257)[0m [AdaptiveScheduler] call=   50 | density=0.051  dist=0.291  complexity=0.191  steps= 35  overhead=0.22ms
+[36m(Runner pid=1496261)[0m [AdaptiveScheduler] call=   50 | density=0.083  dist=0.341  complexity=0.116  steps= 29  overhead=0.14ms
+[36m(Runner pid=1496268)[0m [AdaptiveScheduler] call=   50 | density=0.039  dist=0.125  complexity=0.075  steps= 26  overhead=0.15ms
+[36m(Runner pid=1496237)[0m [AdaptiveScheduler] call=   50 | density=0.064  dist=0.096  complexity=0.111  steps= 29  overhead=0.20ms
+[36m(Runner pid=1496244)[0m [AdaptiveScheduler] call=   50 | density=0.086  dist=0.083  complexity=0.116  steps= 29  overhead=0.12ms
+[36m(Runner pid=1496238)[0m [AdaptiveScheduler] call=   50 | density=0.038  dist=0.035  complexity=0.071  steps= 26  overhead=0.13ms
+[36m(Runner pid=1496255)[0m [AdaptiveScheduler] call=   50 | density=0.076  dist=0.064  complexity=0.068  steps= 25  overhead=0.13ms
+[36m(Runner pid=1496238)[0m gif complete
+[36m(Runner pid=1496238)[0m 
+[36m(Runner pid=1496238)[0m starting episode 10 on metaAgent 1
+[36m(Runner pid=1496233)[0m gif complete
+[36m(Runner pid=1496233)[0m 
+[36m(Runner pid=1496233)[0m starting episode 11 on metaAgent 8
+[36m(Runner pid=1496268)[0m gif complete
+[36m(Runner pid=1496268)[0m 
+[36m(Runner pid=1496268)[0m starting episode 12 on metaAgent 5
+[36m(Runner pid=1496257)[0m gif complete
+[36m(Runner pid=1496257)[0m 
+[36m(Runner pid=1496257)[0m starting episode 13 on metaAgent 4
+[36m(Runner pid=1496261)[0m gif complete
+[36m(Runner pid=1496261)[0m 
+[36m(Runner pid=1496261)[0m starting episode 14 on metaAgent 0
+[36m(Runner pid=1496241)[0m gif complete
+[36m(Runner pid=1496241)[0m 
+[36m(Runner pid=1496241)[0m starting episode 15 on metaAgent 2
+[36m(Runner pid=1496244)[0m gif complete
+[36m(Runner pid=1496244)[0m 
+[36m(Runner pid=1496244)[0m starting episode 16 on metaAgent 6
+[36m(Runner pid=1496237)[0m gif complete
+[36m(Runner pid=1496237)[0m 
+[36m(Runner pid=1496237)[0m starting episode 17 on metaAgent 7
+[36m(Runner pid=1496240)[0m gif complete
+[36m(Runner pid=1496240)[0m 
+[36m(Runner pid=1496240)[0m starting episode 18 on metaAgent 3
+[36m(Runner pid=1496255)[0m gif complete
+[36m(Runner pid=1496255)[0m 
+[36m(Runner pid=1496255)[0m starting episode 19 on metaAgent 9
+[36m(Runner pid=1496238)[0m [AdaptiveScheduler] call=   50 | density=0.035  dist=0.038  complexity=0.067  steps= 25  overhead=0.15ms
+[36m(Runner pid=1496233)[0m [AdaptiveScheduler] call=   50 | density=0.066  dist=0.388  complexity=0.150  steps= 32  overhead=0.17ms
+[36m(Runner pid=1496268)[0m [AdaptiveScheduler] call=   50 | density=0.077  dist=0.135  complexity=0.101  steps= 28  overhead=0.18ms
+[36m(Runner pid=1496261)[0m [AdaptiveScheduler] call=   50 | density=0.046  dist=0.065  complexity=0.081  steps= 26  overhead=0.24ms
+[36m(Runner pid=1496257)[0m [AdaptiveScheduler] call=   50 | density=0.065  dist=0.025  complexity=0.061  steps= 25  overhead=0.12ms
+[36m(Runner pid=1496244)[0m [AdaptiveScheduler] call=   50 | density=0.090  dist=0.278  complexity=0.135  steps= 31  overhead=0.13ms
+[36m(Runner pid=1496241)[0m [AdaptiveScheduler] call=   50 | density=0.080  dist=0.346  complexity=0.159  steps= 33  overhead=0.13ms
+[36m(Runner pid=1496237)[0m [AdaptiveScheduler] call=   50 | density=0.094  dist=0.326  complexity=0.171  steps= 34  overhead=0.15ms
+[36m(Runner pid=1496240)[0m [AdaptiveScheduler] call=   50 | density=0.079  dist=0.439  complexity=0.263  steps= 41  overhead=0.14ms
+[36m(Runner pid=1496255)[0m [AdaptiveScheduler] call=   50 | density=0.033  dist=0.199  complexity=0.084  steps= 27  overhead=0.15ms
+[36m(Runner pid=1496268)[0m gif complete
+[36m(Runner pid=1496268)[0m 
+[36m(Runner pid=1496261)[0m gif complete
+[36m(Runner pid=1496261)[0m 
+[36m(Runner pid=1496238)[0m gif complete
+[36m(Runner pid=1496238)[0m 
+[36m(Runner pid=1496233)[0m gif complete
+[36m(Runner pid=1496233)[0m 
+[36m(Runner pid=1496240)[0m gif complete
+[36m(Runner pid=1496240)[0m 
+[36m(Runner pid=1496257)[0m gif complete
+[36m(Runner pid=1496257)[0m 
+[36m(Runner pid=1496241)[0m gif complete
+[36m(Runner pid=1496241)[0m 
+[36m(Runner pid=1496237)[0m gif complete
+[36m(Runner pid=1496237)[0m 
+[36m(Runner pid=1496255)[0m gif complete
+[36m(Runner pid=1496255)[0m 
+|#Total test: 20
+|#Length of dist_history: 20
+|#Average length: 559.708702737434
+|#Length std: 51.93077685358711
+|#Successes: 20
+|#Success Rate: 1.0
+|#Length of success_dist_history: 20
+|#Average Success length: 559.708702737434
+|#Success Length std: 51.93077685358711
+[36m(Runner pid=1496244)[0m gif complete
+[36m(Runner pid=1496244)[0m 
+==============================
+Finished : Sat May  2 20:04:45 MST 2026
+==============================
